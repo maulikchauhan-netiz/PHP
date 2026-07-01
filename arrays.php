@@ -30,5 +30,3 @@ for($i=0;$i<3;$i++)
       echo "    $i","<br>";
     }    
 ?>
-4.php
-Displaying 3.php.
