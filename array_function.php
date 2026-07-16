@@ -3,7 +3,7 @@
     echo "number of elements in array is : ".count($a)."<br>";
     $b=array("riya",25,"diplopma");
     list($name,$age,$course)=$b;
-    echo "Name is : $name<br>";
+    echo "Name is :". $name."<br>";
     echo "Age is : $age<br>";
     echo "Course is : $course<br>";
     if(in_array("riya",$b))
