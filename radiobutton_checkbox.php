@@ -37,6 +37,7 @@
                         $x=$x.$i." ";
                     }
                     echo $x."<br>";
+                    echo "<hr>";
             }
             else
             {
