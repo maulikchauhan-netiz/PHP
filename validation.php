@@ -1,7 +1,10 @@
 <html>
     <head>
         <style>
-            .error{color: red;}
+            .error{
+            color: red;
+            
+            }
         </style>
     </head>
     <body>
@@ -17,7 +20,8 @@
             {
                 $a1 = "username is : ".$_POST["uname"];
             }
-            if(stren($_POST["pass"]<10))
+         
+          if(strlen($_POST["pass"])<10)
             {
                 $m1 = "password must be of length ten";
             }
@@ -25,8 +29,8 @@
             {
                 $b1 = "password is : ".$_POST["pass"];
             }  
-        }
         
+        }
         ?>
         <form method = "post">
             username:<input type = "text" name = "uname"><span class = "error">*<?php if(isset($n1))echo $n1;?></span><br><br>
@@ -34,6 +38,13 @@
             
             <input type = "submit" name = "sb" value = "login">
             <input type = "reset" name = "rs" value = "reset">
+
 </form>
+<?php
+            echo "$a1 <br> $b1";
+
+?>
+
+
     </body>
 </html>
