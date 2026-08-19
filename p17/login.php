@@ -42,13 +42,17 @@
         <hr>
     </form>
     <?php
-    if(isset($_POST["sb"]))
+    if (isset ($_POST["sb"])) 
         {
-            echo "<script>alert('Login successfully');</script>";
+            $a=$_POST["email"];
+            $b=$_POST["pass"];
 
-        echo "<br>Email :- ".$_POST["email"];
-        echo "<br>Password :- ".$_POST["pass"];
-        echo "<hr>";
+            if ($a == "maulikchauhan602@gmail.com" && $b = "8849560622")
+                echo"<script>alert('Login successful')</script>";
+            else
+                {
+                     echo"<script>alert('Invalid Login')</script>";
+                }
         }
     ?>
 
