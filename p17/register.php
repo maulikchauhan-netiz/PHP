@@ -41,7 +41,10 @@
                      <input type="reset" name="rs">
                 </td>
             </tr>
-           
+           <tr>
+            <td colspan = "2">Already Registered ? <a href="login.php">Login Here</a></td></tr>
+
+
         </table>
     </form>
 
