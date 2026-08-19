@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        td {
+            td,th {
             background-color: rgb(204, 202, 202);
             text-align: center;
+            padding: 10px;
         }
     </style>
 </head>
@@ -38,7 +39,18 @@
 
 
         </table>
+        <hr>
     </form>
+    <?php
+    if(isset($_POST["sb"]))
+        {
+            echo "<script>alert('Login successfully');</script>";
+
+        echo "<br>Email :- ".$_POST["email"];
+        echo "<br>Password :- ".$_POST["pass"];
+        echo "<hr>";
+        }
+    ?>
 
 </body>
 
