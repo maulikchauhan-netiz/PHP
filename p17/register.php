@@ -9,7 +9,7 @@
         td,th {
             background-color: rgb(204, 202, 202);
             text-align: center;
-            padding: 10px;
+            padding: 5px;
         }
     </style>
 </head>
