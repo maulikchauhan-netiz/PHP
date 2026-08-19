@@ -47,7 +47,7 @@
             $a=$_POST["email"];
             $b=$_POST["pass"];
 
-            if ($a == "maulikchauhan602@gmail.com" && $b = "8849560622")
+            if ($a == "maulikchauhan602@gmail.com" && $b == "8849560622")
                 echo"<script>alert('Login successful')</script>";
             else
                 {
