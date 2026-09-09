@@ -1,5 +1,5 @@
 <?php
-header("Cache-Control:no-store,no-cache,no-revalidate");
+header("Cache-Control:no-store,no-Cache,must-revalidate");
 session_start();
 if (!isset($_SESSION["uname"]))
     {
@@ -7,7 +7,7 @@ if (!isset($_SESSION["uname"]))
     }
     else
     {
-        echo "WELCOME:".$_SESSION["uname"];
+        echo "WELCOME: ".$_SESSION["uname"]."<br>";
         echo "<a href='home1.php'>home1</a>";
 
     }

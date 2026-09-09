@@ -1,5 +1,5 @@
 <?php
-header("Cache-Control:no-store,no-cache,no-revalidate");
+header("Cache-Control:no-store,no-Cache,must-revalidate");
 ?>
 <html>
         <body>
