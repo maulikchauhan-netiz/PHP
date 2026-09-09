@@ -2,7 +2,6 @@
 header("Cache-Control:no-store,no-cache,no-revalidate");
 ?>
 <html>
-    <head>
         <body>
             <form method="POST">
                 Username:<input type="text" name="uname"><br>
@@ -17,6 +16,5 @@ header("Cache-Control:no-store,no-cache,no-revalidate");
                     header("Location:home.php");
                 }     
             ?>
-        </body>
-    </head>
+        </body>  
 </html>
